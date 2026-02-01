@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>GPA Calculator</h2>
+
+    <table>
+        <tr>
+            <th>#</th>
+            <th>Course</th>
+            <th>Score (0–100)</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Applied Maths</td>
+            <td><input type="number" class="score"></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Circuit</td>
+            <td><input type="number" class="score"></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Fundamental</td>
+            <td><input type="number" class="score"></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>DSA</td>
+            <td><input type="number" class="score"></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Geography</td>
+            <td><input type="number" class="score"></td>
+        </tr>
+    </table>
+
+    <button onclick="calculateGPA()">Calculate GPA</button>
+
+    <p id="result">GPA: 0.00</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
